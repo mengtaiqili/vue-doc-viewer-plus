@@ -1,0 +1,48 @@
+{
+  "name": "vue-doc-viewer-plus",
+  "version": "1.0.0",
+  "description": "A Vue 3 component for viewing various document formats including PDF, Office documents and images",
+  "type": "module",
+  "main": "dist/vue-doc-viewer-plus.umd.js",
+  "module": "dist/vue-doc-viewer-plus.es.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "build:lib": "vue-tsc -b && vite build --config vite.lib.config.ts"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "document-viewer",
+    "pdf-viewer",
+    "office-viewer",
+    "image-viewer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vue-doc-viewer-plus"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.0.0",
+    "vue": "^3.0.0"
+  },
+  "peerDependencies": {
+    "ant-design-vue": "^4.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vue-tsc": "^2.1.10"
+  }
+}
